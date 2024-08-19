@@ -47,3 +47,9 @@
     @apply h-full bg-background text-foreground;
   }
 }
+
+
+/* Estilo global para esconder a barra de rolagem no WebKit */
+.flex::-webkit-scrollbar {
+  display: none;
+}
